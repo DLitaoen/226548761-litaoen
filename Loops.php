@@ -156,6 +156,16 @@
         $i++;
     }
 
+    // CLI line break
+    echo "\n\n\n";
+
+    echo "Activity 12\n";
+    $userString = (String)readline("Input: \n");
+    $reversedString = "";
+    for ($i = strlen($userString) - 1; $i >= 0; $i--) {
+        $reversedString .= $userString[$i];
+    }
+    echo "Output: " . $reversedString . "\n";
     ?>
 </body>
 </html>
