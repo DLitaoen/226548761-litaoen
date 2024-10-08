@@ -38,6 +38,21 @@
     for ($i = 1; $i <= 10; $i++) {
         echo "7 x $i = " . $multiplicand * $i . "\n";
     }
+
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 4\n";
+    for ($i = 1; $i <= 10; $i++) {
+        if ($i == 5) {
+            continue;
+        } elseif ($i == 8) {
+            echo $i;
+            break;
+        } else {
+            echo $i . " ";
+        }
+    }
     
     ?>
 </body>
