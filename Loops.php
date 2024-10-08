@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loops</title>
 </head>
 <body>
     <?php
+
+    // https://primus-r.notion.site/Loops-83ee14b7653c47fd95d9f80348350c82
+
     echo "\nActivity 1\n";
     $number = 1;
     while ($number <= 20) {
