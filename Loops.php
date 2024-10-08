@@ -116,6 +116,31 @@
             echo $i . " ";
         }
     }
+
+    // CLI line break
+    echo "\n\n\n";
+
+    echo "Activity 10\n";
+    
+    $userNumber = (int)readline("Enter a number: \n");
+    if ($userNumber  <= 1) {
+        echo $userNumber . " is not a prime number. \n";
+    }
+    
+    if ($userNumber  == 2 | $userNumber  == 3) {
+        echo $userNumber . " is a prime number. \n";
+    }
+
+    for ($i = 2; $i <= sqrt($userNumber); $i++) {     
+        if ($userNumber % $i == 0) {
+            echo $userNumber . " is not a prime number. \n";
+            break;
+        } else {
+            echo $userNumber . " is a prime number. \n";
+            break;
+        }
+    }
+
     
     ?>
 </body>
