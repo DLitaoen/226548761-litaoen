@@ -17,7 +17,7 @@
     }
 
     // CLI line break
-    echo "\n\n";
+    echo "\n\n\n";
 
     echo "Activity 2\n";
     $correctPassword = "password123";
@@ -29,6 +29,16 @@
         }
     } while ($userPassword != $correctPassword);
     echo "Access Granted.\n";
+
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 3\n";
+    $multiplicand = 7;
+    for ($i = 1; $i <= 10; $i++) {
+        echo "7 x $i = " . $multiplicand * $i . "\n";
+    }
+    
     ?>
 </body>
 </html>
