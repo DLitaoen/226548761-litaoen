@@ -65,6 +65,17 @@
         $addend++;
     }
     echo "The sum of numbers from 1 to 100 is: $sum \n";
+
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 6\n";
+    $movies = array("Avatar", "Avengers: Endgame", "Avatar: The Way of Water", "Titanic", "Star Wars: Episode VII - The Force Awakens");
+    $i = 1;
+    foreach ($movies as $movie) {
+        echo $i . ". " . $movie . "\n";
+        $i++;
+    }
     
     ?>
 </body>
