@@ -76,6 +76,15 @@
         echo $i . ". " . $movie . "\n";
         $i++;
     }
+
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 7\n";
+    $userInfo = array("Name" => "Alice", "Age" => 20, "Grade" => "A", "City" => "Baguio");
+    foreach ($userInfo as $info => $value) {
+        echo $info . ": " . $value . "\n";
+    }
     
     ?>
 </body>
