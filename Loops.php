@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    // Activity 1
+    echo "\nActivity 1\n";
     $number = 1;
     while ($number <= 20) {
         if ($number % 2 == 0) {
@@ -15,6 +15,20 @@
         }
         $number++;
     }
+
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 2\n";
+    $correctPassword = "password123";
+    do {
+        // echo "Please enter the password: ";
+        $userPassword = readline("\nPlease enter the password: \n");
+        if ($userPassword != "password123") {
+            echo "Incorrect password.\n";
+        }
+    } while ($userPassword != $correctPassword);
+    echo "Access Granted.\n";
     ?>
 </body>
 </html>
