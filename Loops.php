@@ -85,6 +85,18 @@
     foreach ($userInfo as $info => $value) {
         echo $info . ": " . $value . "\n";
     }
+
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 8\n";
+    $numberFactor = 5;
+    $factorial = 1;
+    
+    for ($i = $numberFactor; $i > 0; $i--) {
+        $factorial = $factorial * $i;
+    }
+    echo "The factorial of ". $numberFactor . " is: ". $factorial . "\n";
     
     ?>
 </body>
