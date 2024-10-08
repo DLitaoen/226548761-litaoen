@@ -126,7 +126,7 @@
     if ($userNumber  <= 1) {
         echo $userNumber . " is not a prime number. \n";
     }
-    
+
     if ($userNumber  == 2 | $userNumber  == 3) {
         echo $userNumber . " is a prime number. \n";
     }
@@ -141,7 +141,21 @@
         }
     }
 
-    
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 11\n";
+    $subsequentNumber = 1;
+    $sum = 0;
+    $i = 1;
+    while ($i <= 5) {
+        echo $sum . " ";
+        $sum += $subsequentNumber;
+        echo $subsequentNumber . " ";
+        $subsequentNumber = $sum + $subsequentNumber;
+        $i++;
+    }
+
     ?>
 </body>
 </html>
