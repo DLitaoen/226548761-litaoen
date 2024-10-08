@@ -97,6 +97,22 @@
         $factorial = $factorial * $i;
     }
     echo "The factorial of ". $numberFactor . " is: ". $factorial . "\n";
+
+    // CLI line break
+    echo "\n\n";
+
+    echo "Activity 9\n";
+    for ($i = 1; $i <= 50; $i++) {
+        if ($i % 3 == 0 && $i % 5 == 0) {
+            echo "FizzBuzz ";
+        } elseif ($i % 3 == 0) {
+            echo "Fizz ";
+        } elseif ($i % 5 == 0) {
+            echo "Buzz ";
+        } else {
+            echo $i . " ";
+        }
+    }
     
     ?>
 </body>
