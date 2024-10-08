@@ -53,6 +53,18 @@
             echo $i . " ";
         }
     }
+
+    // CLI line break
+    echo "\n\n\n";
+
+    echo "Activity 5\n";
+    $addend = 1;
+    $sum = 0;
+    while ($addend <= 100) {
+        $sum += $addend;
+        $addend++;
+    }
+    echo "The sum of numbers from 1 to 100 is: $sum \n";
     
     ?>
 </body>
