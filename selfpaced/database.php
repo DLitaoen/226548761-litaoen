@@ -1,8 +1,8 @@
 <?php
     // Initialization and declaration of variables
-    $servername = "localhost";
+    $servername = "localhost:3306";
     $username = "root";
-    $password = "*****";
+    $password = "Deuter0n0my318";
     $databasename = "event_calendar";
 
     // Connect to MySQL database
